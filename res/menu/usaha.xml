@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.harni.pkm.UsahaActivity" >
+
+    <item
+        android:id="@+id/action_tambah_usaha"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Tambah"/>
+
+</menu>

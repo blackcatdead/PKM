@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/tvItemUsahaPic"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvItemUsahaUsaha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usaha 1" />
+
+        <TextView
+            android:id="@+id/tvUsahaDeskripsipendek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="usaha 1 adalah usaha yang" />
+    </LinearLayout>
+
+</LinearLayout>

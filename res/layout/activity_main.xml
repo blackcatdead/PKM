@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMain_loginsebagai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in sebagai : asdasdads" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivMain_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="5sp"
+            android:padding="15sp"
+            android:gravity="center"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USAHA"
+            android:textStyle="bold"
+            android:id="@+id/btnMain_usaha" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:padding="15sp"
+            android:gravity="center"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PKM"
+            android:textStyle="bold"
+            android:id="@+id/btnMain_pkm" />
+
+
+
+        <Button
+            android:layout_margin="5sp"
+            android:padding="15sp"
+            android:gravity="center"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:textStyle="bold"
+            android:id="@+id/btnMain_loginlogout" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

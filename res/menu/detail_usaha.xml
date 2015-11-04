@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.harni.pkm.DetailUsahaActivity" >
+
+    <item
+        android:id="@+id/action_tambahedit_kegiatan"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Tambah Kegiatan"/>
+
+</menu>
